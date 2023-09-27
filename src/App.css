@@ -1,0 +1,53 @@
+
+.icons-set {
+    display: flex;
+   margin-left: 6%;
+    margin-top: 3%;
+
+
+}
+
+.icons
+ {
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.icons i {
+    font-size: 30px;
+    color:white;
+}
+
+.icons:hover {
+    background-image: linear-gradient(to bottom right,rgb(200, 166, 177),rgb(255, 0, 85),  red);
+}
+
+.icons:hover i {
+    color:black;
+    animation: shake 0.75s;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
